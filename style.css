@@ -17,16 +17,16 @@ body {
     width: 100%;
 }
 
-/* .background-container {
-   
-} */
-
 .white-text {
     color: white;
 }
 
 .black-text {
     color: black;
+}
+
+.purple-text {
+    color:#6d87d9 ;
 }
 
 /* Fine Common */
@@ -232,7 +232,7 @@ body {
     font-weight: 700;
 }
 
-#bottom-btn {
+.bottom-btn {
     margin-top: 35px;
     background-color: #7289da;
     border: none;
@@ -240,6 +240,7 @@ body {
     padding: 13px;
     font-weight: 700;
     font-size: 15px;
+    color: white;
 }
 
 /* .row-text-bg {
@@ -250,9 +251,108 @@ body {
 
 .row-image img {
     width: 100%; */
-    /* background-image: url(img/item4-big.svg); */
-    /* background-size:cover;
+/* background-image: url(img/item4-big.svg); */
+/* background-size:cover;
     background-repeat: no-repeat;
     width: 100%; */
 
-    /* Fine Main */
+/* Fine Main */
+
+/* Footer */
+footer .container {
+    margin-top: 95px;
+    background-color: #23272a;
+    height: 700px;
+}
+
+.foot-content-box {
+    display: flex;
+    flex-direction: row;
+    width: 71%;
+    height: 550px;
+}
+
+.social-links {
+    width: 31%;
+    height: 100%;
+    font-size: xx-large;
+}
+
+.social-links h2 {
+    margin-bottom: -17px;
+}
+
+.social-links img {
+    width: 37px;
+    height: 28px;
+    padding: 2px;
+    margin-left: 0px;
+    vertical-align: middle;
+}
+
+.social-links span {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.col {
+    width: 17.5%;
+    height: 100%;
+}
+
+.col ul {
+    line-height: 47px;
+    font-size: 17.5px;
+    font-weight: 700;
+    color: white;
+    list-style-type: none;
+    margin-top: -24px;
+    margin-left: 17px;
+}
+
+/* .company {
+    width: 17.5%;
+    height: 100%;
+    border: 2px dotted black;
+}
+
+.resources {
+    width: 17.5%;
+    height: 100%;
+    border: 2px dotted black;
+}
+
+.rules {
+    width: 17.5%;
+    height: 100%;
+    border: 2px dotted black;
+} */
+
+.foot-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -46px;
+}
+
+.divider {
+    width: 71%;
+    border: 1px solid #4c5a86;
+    border-radius: 16px;
+}
+
+.lower .container {
+    width: 100%;
+    margin-top: 0;
+    height: 148px;
+}
+
+.end-page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    width: 71%;
+    padding-bottom: 97px;
+    /* height: 130px; */
+}
